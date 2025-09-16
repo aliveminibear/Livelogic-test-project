@@ -164,31 +164,4 @@ JWT settings can be modified in `config/jwt.php`:
 
 ## API Documentation
 
-### Authentication Endpoints
-```
-POST /api/auth/register    - User registration
-POST /api/auth/login       - User login
-POST /api/auth/logout      - User logout
-POST /api/auth/refresh     - Refresh JWT token
-GET  /api/auth/user-profile - Get user profile
-```
-
-### Task Endpoints
-```
-GET    /api/tasks           - Get all user tasks
-POST   /api/tasks           - Create new task
-GET    /api/tasks/{id}      - Get specific task
-PUT    /api/tasks/{id}      - Update task
-DELETE /api/tasks/{id}      - Delete task
-POST   /api/tasks/{id}/toggle - Toggle task completion
-```
-
-### Poll Endpoints
-```
-POST   /api/polls           - Create new poll (authenticated)
-GET    /api/polls/{poll}    - Get poll details and options
-POST   /api/polls/{poll}/vote - Submit vote for poll option
-GET    /api/polls/{poll}/results - Get poll results with vote counts
-GET    /api/my/polls        - Get user's created polls (authenticated)
-```
 
