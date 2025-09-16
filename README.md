@@ -156,12 +156,4 @@ DB_PASSWORD=your_password
 php artisan migrate
 ```
 
-### JWT Configuration
-JWT settings can be modified in `config/jwt.php`:
-- Token TTL (Time To Live)
-- Refresh TTL
-- Algorithm settings
-
-## API Documentation
-
 
