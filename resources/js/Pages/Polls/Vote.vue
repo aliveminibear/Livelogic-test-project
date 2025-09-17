@@ -14,8 +14,18 @@
           </button>
           <p v-if="error" class="text-red-600">{{ error }}</p>
         </form>
-        <div class="mt-4">
-          <Link :href="`/polls/${id}/results`" class="text-indigo-600 underline">View results</Link>
+        <div class="flex justify-between">
+          <div class="mt-4">
+            <Link :href="`/polls/${id}/results`" class="text-indigo-600 underline">View results</Link>
+          </div>
+          <div class="mt-4">
+            <Link
+              href="/my-polls"
+              class="text-indigo-600 underline"
+            >
+              My Polls
+            </Link>
+          </div>
         </div>
       </div>
     </div>

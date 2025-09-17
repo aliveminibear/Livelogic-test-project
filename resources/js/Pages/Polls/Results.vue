@@ -15,8 +15,18 @@
           </div>
         </div>
         <div class="mt-4 text-sm text-gray-600">Total votes: {{ total }}</div>
-        <div class="mt-4">
-          <Link :href="`/polls/${id}`" class="text-indigo-600 underline">Back to vote</Link>
+        <div class="flex justify-between">
+          <div class="mt-4">
+            <Link :href="`/polls/${id}`" class="text-indigo-600 underline">Back to vote</Link>
+          </div>
+          <div class="mt-4">
+            <Link
+              href="/my-polls"
+              class="text-indigo-600 underline"
+            >
+              My Polls
+            </Link>
+          </div>
         </div>
       </div>
     </div>
