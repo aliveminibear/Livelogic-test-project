@@ -68,13 +68,20 @@ A comprehensive Todo and Poll management application built with Laravel 11 and V
 - Node.js 18+ and npm
 - SQLite (or MySQL/PostgreSQL if preferred)
 
+## Execute App
+
+```bash
+docker-compose up --build
+```
+
 ## Installation Instructions
 
 ### 1. Clone the Repository
 
 ```bash
 git clone <repository-url>
-cd todo-app
+cd Livelogic-test-project
+
 ```
 
 ### 2. Install PHP Dependencies

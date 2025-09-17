@@ -24,11 +24,11 @@
               Create and manage your tasks with priorities, due dates, and completion tracking.
             </p>
             <ul class="text-sm text-gray-500 mb-8 space-y-2">
-              <li>✓ Add and delete tasks</li>
-              <li>✓ Set priorities (High, Medium, Low)</li>
-              <li>✓ Due date tracking</li>
-              <li>✓ Mark tasks as complete</li>
-              <li>✓ User-specific task lists</li>
+              <li>- Add and delete tasks</li>
+              <li>-  Set priorities (High, Medium, Low)</li>
+              <li>- Due date tracking</li>
+              <li>- Mark tasks as complete</li>
+              <li>- User-specific task lists</li>
             </ul>
             <Link
               href="/todos"
@@ -50,11 +50,11 @@
             <h2 class="text-2xl font-bold text-gray-900 mb-4">Poll Creator</h2>
             <p class="text-gray-600 mb-6">Create a poll and share the link to collect votes.</p>
             <ul class="text-sm text-gray-400 mb-8 space-y-2">
-              <li>• Create custom polls</li>
-              <li>• Share poll links</li>
-              <li>• Real-time voting</li>
-              <li>• View results</li>
-              <li>• User-specific polls</li>
+              <li>- Create custom polls</li>
+              <li>- Share poll links</li>
+              <li>- Real-time voting</li>
+              <li>- View results</li>
+              <li>- User-specific polls</li>
             </ul>
             <div class="flex justify-center gap-3">
               <Link
